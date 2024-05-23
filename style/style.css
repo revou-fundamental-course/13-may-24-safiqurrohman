@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* font-style: normal; */
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+}
+
+.header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 10px 0;
+}
+
+.header h1{
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+.header p{
+    font-size: 1.1rem;
+}
+.luas-segitiga{
+    width: 100%;
+    height: auto;
+    /* display: none; */
+}
+
+.keliling-segitiga{
+    width: 100%;
+    height: auto;
+    /* display: none; */
+}
+
+.button-switch{
+    width: 100%px;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+    align-items: center;
+}
+
+.button-switch .active{
+    background-color: rgb(23, 23, 255);
+}
+.button-switch button{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+.content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #333;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-content{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(47, 0, 255);
+}
+
+.isi-content{
+    width: 100%;
+    
+}
+.gambar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 10px;
+    justify-content: center;
+    
+}
+
+.gambar img{
+    width: 150px;
+    height: 150px;
+}
+.isi-content .rumus{
+    width: 100%;
+}
+.isi-content .rumus p{
+    margin-bottom: 10px;
+}
+.isi-content .rumus .rumus-text{
+  display: flex;
+  justify-content: center;
+}
+
+.isi-content .penjelasan-text{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding-bottom: 20px;
+}
+
+.input{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input h3{
+    width: 100%;
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.input input{
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+}
+
+.hasil{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.input .input-hitung{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    padding-top: 10px;
+    flex-direction: column;
+}
+
+.input .input-hitung .submit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input-hitung .submit .submit-button{
+    width: 90px;
+    height: 40px;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: rgb(28, 126, 255);
+    color: #fff;
+}
+.input .input-hitung .reset{
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.input-hitung .reset .reset-button{
+    width: 60px;
+    height: 30px;
+    border: none;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 3px;
+    align-items: center;
+    background-color: rgb(255, 187, 0);
+}

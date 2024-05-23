@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Project</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Welcom to Katik</h1>
+        <p>Hai sobat, selamat datang di katik :]</p>
+        <p>sebuah web apps sederhana yang berfungsi  untuk menghitung nilai luang dan keliling bangun datar</p>
+    </header>
+    <section class="luas-segitiga" id="Luas-segitiga">
+        <div class="button-switch">
+            <button class="active" >Luas Segitiga</button>
+            <button id="keliling-button">Keliling Segitiga</button>
+        </div>
+        <div class="content">
+            <div class="header-content">
+                <h3>Luas Segitiga</h3>
+            </div>
+            <div class="isi-content">
+                <div class="gambar">
+                   <img src="https://asset-a.grid.id//crop/0x0:0x0/700x465/photo/2020/04/27/3299020137.jpg" alt="">
+                </div>
+                <div class="rumus">
+                    <p>Rumus Luas Segitiga yaitu:</p>
+                    <p class="rumus-text">L=1/2 x a x t</p>
+                </div>
+                <div class="penjelasan-text">
+                    <p>Dimana:</p>
+                    <p>L = Luas</p>
+                    <p>a = Panjang Alaas</p>
+                    <p>t = Tinggi</p>
+                </div>
+            </div>
+        </div>
+        <div class="input">
+            <h3>Hitung Luas Segitiga</h3>
+            <input type="number" placeholder="Masukkan Alas" id="alas" required>
+            <input type="number" placeholder="Masukkan Tinggi" id="tinggi" required>
+            <div class="hasil" id="hasilLuas">
+                <!-- <p>L = 1/2 x a x t</p>
+                <p>L = 1/2 x 90 x 90</p>
+                <p>L = 4060</p> -->
+            </div>
+            <div class="input-hitung">
+                <div class="submit">
+                    <button class="submit-button" id="submit-luas">Hitung</button>
+                </div>
+                <div class="reset">
+                    <button class="reset-button" id="reset-luas">Reset</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="keliling-segitiga" id="Keliling-segitigas">
+        <div class="button-switch">
+            <button   id="luas-button">Luas Segitiga</button>
+            <button class="active" >Keliling Segitiga</button>
+        </div>
+        <div class="content">
+            <div class="header-content">
+                <h3>Keliling Segitiga</h3>
+            </div>
+            <div class="isi-content">
+                <div class="gambar">
+                   <img src="https://asset-a.grid.id//crop/0x0:0x0/700x465/photo/2020/04/27/3299020137.jpg" alt="">
+                </div>
+                <div class="rumus">
+                    <p>Rumus Luas Segitiga yaitu:</p>
+                    <p class="rumus-text">K = S1 x S2 x S3</p>
+                </div>
+                <div class="penjelasan-text">
+                    <p>Dimana:</p>
+                    <p>K = Keliling</p>
+                    <p>S1 = Sisi A</p>
+                    <p>S2 = Sisi B</p>
+                    <p>S3 = Sisi C</p>
+                </div>
+            </div>
+        </div>
+        <div class="input">
+            <h3>Hitung Keliling Segitiga</h3>
+            <input type="number" placeholder="Masukkan Sisi A" id="sisiA" required>
+            <input type="number" placeholder="Masukkan Sisi B" id="sisiB" required>
+            <input type="number" placeholder="Masukkan Sisi C" id="sisiC" required>
+            <div class="hasil" id="hasilKeliling">
+                <!-- <p>L = 1/2 x a x t</p>
+                <p>L = 1/2 x 90 x 90</p>
+                <p>L = 4060</p> -->
+            </div>
+            <div class="input-hitung">
+                <div class="submit">
+                    <button class="submit-button" id="submit-keliling">Hitung</button>
+                </div>
+                <div class="reset">
+                    <button class="reset-button" id="reset-keliling">Reset</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
